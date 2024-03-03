@@ -8,5 +8,5 @@ df = pd.read_csv("data/Spotify_final_dataset.csv", low_memory=False)
 df = df.drop_duplicates(subset="Song Name")
 # drop Null values
 df = df.dropna(axis=0)
-# Drop the non-required columns
+# We need Position,Artist Name,Song Name
 df = df.drop(df.columns[3:], axis=1)
