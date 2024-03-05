@@ -4,7 +4,7 @@
 Welcome to our Music Recommendation System based on content-based filtering! This system utilizes content-based filtering to recommend songs to users based on their preferences. Content-based filtering recommends items by comparing the content of the items to the user's profile. In the context of music, this means recommending songs similar to those the user has liked in the past.
 
 ## How Content-Based Filtering Works
-Content-based filtering focuses on the characteristics of items and a profile of the user’s preferences. In our system, we create a profile for each song based on its features such as the artist, title, and other relevant information. We then recommend songs that are similar to the ones the user has liked, using a similarity metric.
+Content-based filtering focuses on the characteristics of items and a profile of the user’s preferences. In this system, we create a profile for each song based on its features such as the artist, title, and other relevant information. We then recommend songs that are similar to the ones the user has liked, using a similarity metric.
 
 ## The Code Structure
 The code is divided into several key sections, each serving a specific purpose.
