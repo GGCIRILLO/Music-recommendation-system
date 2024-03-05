@@ -69,7 +69,24 @@ CountVectorizer is a feature extraction method that transforms text data into a 
 Cosine similarity measures the cosine of the angle between two vectors. In our system, it is used to calculate the similarity between song vectors. A higher cosine similarity indicates a greater similarity between songs. This metric is crucial for identifying songs that closely match the user's preferences.
 
 ## Running the System
-1. Ensure you have the required dependencies installed (`pandas`, `scikit-learn`).
-2. Run the Python script, and the system will guide you through the song recommendation process.
-
-Feel free to explore and enjoy discovering new music tailored to your taste!
+Ensure you have the  following installed: `Python (3.6 or higher)`, `pip (Python package installer)`.
+### Getting started 
+1. **Clone the Repository:** Open a terminal or command prompt and run the following command to clone the repository to your local machine: 
+``` bash
+git clone https://github.com/GGCIRILLO/music-recommendation-system.git
+```
+Otherwise you can clone it using GitHub Desktop (or other apps) providing the link.
+2. **Navigate to the Project Directory:** Change into the project directory: 
+``` bash
+cd music-recommendation-system
+```
+3. **Install Dependencies**: Run the following command to install the required Python dependencies:
+``` bash
+pip install -r requirements.txt
+```
+4. **Run the Recommendation System:** Execute the main Python script to run the Music Recommendation System:
+``` bash
+python main.py
+```
+Follow the prompts in the terminal to interact with the system. Enter the name of a song to receive personalized recommendations.
+Feel free to customize the system, experiment with different songs, and discover new music tailored to your taste!
