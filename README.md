@@ -86,7 +86,7 @@ pip install -r requirements.txt
 ```
 4. **Run the Recommendation System:** Execute the main Python script to run the Music Recommendation System:
 ``` bash
-python main.py
+python recommendation_system.py
 ```
 Follow the prompts in the terminal to interact with the system. Enter the name of a song to receive personalized recommendations.
 Feel free to customize the system, experiment with different songs, and discover new music tailored to your taste!
