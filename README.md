@@ -59,7 +59,7 @@ The system engages with the user through a command-line interface:
 ### User Experience
 - **Interactive Command-Line Interface:** The system guides the user through song input, recommendation display, and the option to listen to a recommended song.
 - **Error Handling:** The system handles input errors gracefully, providing informative messages to guide the user.
-   <img src="./images/Terminal" alt="Terminal interface" width="500"/>  <img src="./images/Spotify1" alt="Spotify search" width="500"/> <img src="./images/Spotify2" alt="Spotify search" width="500"/>
+   <img src="./images/Terminal.png" alt="Terminal interface" width="500"/>  <img src="./images/Spotify1.png" alt="Spotify search" width="500"/> <img src="./images/Spotify2.png" alt="Spotify search" width="500"/>
 
 ## CountVectorizer and Cosine Similarity
 ### CountVectorizer
