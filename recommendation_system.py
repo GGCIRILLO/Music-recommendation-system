@@ -64,13 +64,13 @@ while system:
         else:
             print("Please type 'yes' or 'no'")
 
-while True:
-    next_command = input("Do you want to generate again for the next song? [yes, no] ")
+    while True:
+        next_command = input("Do you want to generate again for the next song? [yes, no] ")
 
-    if next_command == "yes":
-        break
-    elif next_command == "no":
-        system = False
-        break
-    else:
-        print("Please type 'yes' or 'no'")
+        if next_command == "yes":
+            break
+        elif next_command == "no":
+            system = False
+            break
+        else:
+            print("Please type 'yes' or 'no'")
